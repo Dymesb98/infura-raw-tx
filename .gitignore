@@ -1,2 +1,5 @@
 # Dependency directories
 node_modules/
+
+credentials/
+credentials/credentials.js
