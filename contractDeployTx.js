@@ -2,7 +2,7 @@ const ethers = require('ethers');
 const credentials = require('./credentials/credentials.js');
 const build = require('./build/contracts/Ballot.json');
 
-let provider = new ethers.providers.InfuraProvider("kovan", credentials.INFURA_API_KEY);
+let provider = new ethers.providers.InfuraProvider("kovan", credentials.https://mainnet.infura.io/v3/1c8e1333853b419f879ae4d9fc58cc61);
 
 let wallet = new ethers.Wallet(credentials.P_KEY, provider);
 
